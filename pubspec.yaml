@@ -1,0 +1,60 @@
+name: augmntx
+description: An app for company named "AugmntX.com".
+publish_to: "AugmntX"
+version: 1.0.3+7
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  http: ^1.1.0
+  line_icons: ^2.0.3
+  provider: ^6.0.5
+  flutter_launcher_icons: ^0.10.0
+  loading_animation_widget: ^1.2.0+4
+  google_sign_in: ^6.1.5
+  shared_preferences: ^2.2.2
+  flutter_native_splash: ^2.2.16
+  feather_icons: ^1.2.0
+  url_launcher: ^6.2.0
+  change_app_package_name: ^1.1.0
+  share_plus: ^7.2.1
+  cached_network_image: ^3.3.0
+  gap: ^3.0.1
+  flutter_svg: ^2.0.9
+  chewie: ^1.7.1
+  video_player: ^2.8.1
+  getwidget: ^4.0.0
+  simple_gradient_text: ^1.3.0
+  webview_flutter: ^4.4.2
+  infinite_carousel: ^1.0.3
+
+flutter_icons:
+  image_path: "assets/images/augmntx.png"
+  android: true
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  color: "#FFFFFF"
+  image: "assets/images/splash.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/DummyAccounts/
+    - assets/svg/
+    - assets/images/augmntx.png
+    - assets/images/apple.png
+    - assets/images/google.png
